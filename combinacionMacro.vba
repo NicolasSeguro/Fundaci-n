@@ -10,11 +10,11 @@ Sub Combinar()
     Dim objetoDiapositiva As Object
     Dim objetoCuadroTexto As Object
     
-    Set hojaParticipantes = Worksheets("Participantes")
+    Set hojaParticipantes = Worksheets("hoja 1")
     
     Set objetoPowerPoint = CreateObject("Powerpoint.Application")
     objetoPowerPoint.Visible = True
-    Set objetoPresentacion = objetoPowerPoint.presentations.Open(ThisWorkbook.Path & "\diploma.pptx")
+    Set objetoPresentacion = objetoPowerPoint.presentations.Open(ThisWorkbook.Path & "\ejemploCertificado.pptx")
     objetoPresentacion.SaveAs ThisWorkbook.Path & "\combinados.pptx"
     
     filaInicial = 2
