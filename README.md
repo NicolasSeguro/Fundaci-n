@@ -19,3 +19,16 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://dotnet.microsoft.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> </p>
 
+
+Paso a paso para la **Combinación de archivos para generación de certificados de manera masiva**
+- Crear una carpeta donde se alojen ambos archivos (Ppt y excel) 
+- Dentro del excel ingresar a Archivo / Opciones / Personalizar / Tildar la opción desarrollador.
+- Se agrega a nuestro menú la opción developer o desarrollador 
+- Seleccionar desarrollador / macros 
+- Al entrar en macros creamos un nuevo modulo y cargamos el código creado en vba
+- Seleccionamos la macros creada y ejecutamos. 
+
+
+
+
+
